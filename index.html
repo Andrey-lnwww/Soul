@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230615131539">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container flex">
+				<a class="header__logo logo" href="index.html"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list list-reset flex-h-center">
+							<li class="menu__item"><a href="##" class="menu__link menu__link--active link--active">Каталог</a></li>
+							<li class="menu__item"><a href="##" class="menu__link link--active">Акции</a></li>
+							<li class="menu__item"><a href="##" class="menu__link link--active">Контакты</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__contacts contacts flex-v-center">
+					<a class="contacts__phone link--active" href="tel:+79991234567">+7 (999) 123-45-67</a>
+					<ul class="contacts__social social list-reset flex-h-center header__social">
+						<li class="social__item social__item--vk">
+							<a class="social__link" href="##">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0ZM30.6568 14C31.4497 14 31.6174 14.4011 31.4497 14.9481C31.1168 16.4525 27.9177 20.8777 27.9165 20.8765C27.6398 21.3141 27.5273 21.5317 27.9165 22.0245C28.0541 22.213 28.3464 22.4943 28.681 22.8162C29.0252 23.1474 29.4141 23.5216 29.725 23.8819C30.8533 25.1275 31.7036 26.1803 31.9396 26.9037C32.1552 27.6306 31.7803 27.9988 31.0305 27.9988H28.4052C27.7027 27.9988 27.3483 27.6117 26.5827 26.7755C26.2584 26.4213 25.8603 25.9864 25.3307 25.4663C23.7725 23.9924 23.1042 23.7995 22.7161 23.7995C22.1879 23.7995 22.0286 23.9477 22.0286 24.6841V26.9966C22.0286 27.6318 21.8226 28 20.1542 28C17.3708 28 14.3155 26.3415 12.1452 23.282C8.88989 18.8015 8 15.4139 8 14.7293C8 14.3482 8.14971 14.0012 8.90067 14.0012H11.526C12.1967 14.0012 12.4494 14.2894 12.6998 15.0034C13.9849 18.678 16.1503 21.8881 17.0402 21.8881C17.3756 21.8881 17.5277 21.7363 17.5277 20.9047V17.1077C17.4677 16.0252 17.0828 15.5573 16.7979 15.2109C16.6222 14.9972 16.4845 14.8298 16.4845 14.5928C16.4845 14.3035 16.736 14 17.1528 14H21.2801C21.837 14 22.0298 14.2917 22.0298 14.9481V20.0566C22.0298 20.6036 22.2718 20.7942 22.4382 20.7942C22.7712 20.7942 23.0503 20.6036 23.6611 20.0002C25.5535 17.9264 26.8889 14.7281 26.8889 14.7281C27.0566 14.347 27.362 14 28.0303 14H30.6568Z" fill="#547147" />
+								</svg>
+							</a>
+						</li>
+						<li class="social__item social__item--instagram">
+							<a class="social__link" href="##">
+								<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20ZM20.0977 13.7346C16.686 13.7346 13.9326 16.4886 13.9326 19.901C13.9326 23.3134 16.686 26.0674 20.0977 26.0674C23.5094 26.0674 26.2628 23.3134 26.2628 19.901C26.2628 16.4886 23.5094 13.7346 20.0977 13.7346ZM20.0977 23.9087C17.8914 23.9087 16.0908 22.1078 16.0908 19.901C16.0908 17.6942 17.8914 15.8933 20.0977 15.8933C22.304 15.8933 24.1045 17.6942 24.1045 19.901C24.1045 22.1078 22.304 23.9087 20.0977 23.9087ZM26.5153 12.0449C25.7187 12.0449 25.0754 12.6883 25.0754 13.4851C25.0754 14.2818 25.7187 14.9252 26.5153 14.9252C27.3118 14.9252 27.9551 14.2848 27.9551 13.4851C27.9553 13.2959 27.9182 13.1085 27.846 12.9337C27.7737 12.7588 27.6677 12.6 27.5339 12.4662C27.4002 12.3324 27.2413 12.2264 27.0665 12.1541C26.8918 12.0818 26.7044 12.0447 26.5153 12.0449ZM31.9991 19.3938C31.9989 19.5957 31.9987 19.7977 31.9987 20C31.9987 20.2262 31.999 20.4521 31.9993 20.6778C32.0015 22.1056 32.0036 23.525 31.9206 24.9533C31.8275 26.8746 31.3923 28.5768 29.9843 29.9847C28.5794 31.3897 26.8743 31.828 24.953 31.9211C23.5008 32.0028 22.0579 32.0012 20.6059 31.9996C20.4041 31.9993 20.202 31.9991 19.9998 31.9991C19.7979 31.9991 19.5963 31.9993 19.3947 31.9996C17.9447 32.0012 16.5014 32.0028 15.0465 31.9211C13.1253 31.828 11.4231 31.3927 10.0152 29.9847C8.61029 28.5798 8.17201 26.8746 8.07894 24.9533C7.99724 23.501 7.99884 22.0557 8.00045 20.6051C8.00067 20.4035 8.00089 20.2018 8.00089 20C8.00089 19.7982 8.00067 19.5965 8.00045 19.3949C7.99884 17.9449 7.99724 16.5016 8.07894 15.0467C8.17201 13.1254 8.60729 11.4232 10.0152 10.0153C11.4201 8.6103 13.1253 8.17201 15.0465 8.07895C16.4987 7.99724 17.9417 7.99884 19.3936 8.00045C19.5955 8.00067 19.7975 8.00089 19.9998 8.00089C20.2016 8.00089 20.4033 8.00067 20.6048 8.00045C22.0548 7.99884 23.4982 7.99724 24.953 8.07895C26.8743 8.17201 28.5764 8.6073 29.9843 10.0153C31.3893 11.4202 31.8275 13.1254 31.9206 15.0467C32.0023 16.4989 32.0007 17.9418 31.9991 19.3938ZM28.4503 28.4537C28.8736 28.0334 29.1378 27.6252 29.3569 27.0788C29.8965 25.7207 29.8677 22.7573 29.849 20.841C29.846 20.5291 29.8432 20.245 29.8432 20C29.8432 19.7543 29.846 19.4691 29.8491 19.156C29.8678 17.239 29.8967 14.2756 29.3599 12.9182C29.1408 12.3718 28.8766 11.9666 28.4533 11.5433C28.0331 11.12 27.6248 10.8558 27.0784 10.6367C25.7211 10.0999 22.7578 10.1288 20.8408 10.1475C20.5277 10.1506 20.2425 10.1533 19.9968 10.1533C19.7511 10.1533 19.4659 10.1506 19.1528 10.1475C17.2358 10.1288 14.2725 10.0999 12.9151 10.6367C12.3688 10.8558 11.9635 11.123 11.5402 11.5433C11.1169 11.9636 10.8528 12.3718 10.6336 12.9182C10.0969 14.2756 10.1258 17.239 10.1445 19.156C10.1475 19.4691 10.1503 19.7543 10.1503 20C10.1503 20.2457 10.1475 20.5309 10.1445 20.844C10.1258 22.7604 10.0969 25.7219 10.6336 27.0818C10.8528 27.6282 11.1169 28.0334 11.5402 28.4567C11.9605 28.88 12.3688 29.1442 12.9151 29.3633C14.2725 29.9001 17.2358 29.8712 19.1528 29.8525C19.4659 29.8494 19.7511 29.8467 19.9968 29.8467C20.2417 29.8467 20.5259 29.8494 20.8378 29.8525C22.7541 29.8711 25.7174 29.8999 27.0754 29.3603C27.6218 29.1412 28.0271 28.877 28.4503 28.4537Z" fill="#547147" />
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<button type="button" class="menu__icon icon-menu btn-reset"><span></span></button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__slider mainslider">
+				<h1 class="visually-hidden">Заказ впечатлений</h1>
+				<div class="mainslider__container">
+					<div class="mainslider__slider swiper">
+						<div class="mainslider__wrapper swiper-wrapper">
+							<div class="mainslider__slide swiper-slide flex" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
+					url('img/slide1.jpg');">
+								<div class="mainslider__content flex">
+									<h2 class="title mainslider__title">Конная <span>прогулка</span></h2>
+									<button class="btn btn-reset mainslider__btn" data-popup="#popup-card1" type="button">Заказать
+										впечатление</button>
+									<span class="mainslider__price">от 990 ₽</span>
+								</div>
+							</div>
+							<div class="mainslider__slide swiper-slide flex" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
+					url('img/slide2.jpg');">
+								<div class="mainslider__content flex">
+									<h2 class="title mainslider__title">Полет на<span>мотопараплане</span></h2>
+									<button class="btn btn-reset mainslider__btn" type="button" data-popup="#popup-card2">Заказать
+										впечатление</button>
+									<span class="mainslider__price">3 000 ₽</span>
+								</div>
+							</div>
+							<div class="mainslider__slide swiper-slide flex" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
+					url('img/slide3.jpg');">
+								<div class="mainslider__content flex">
+									<h2 class="title mainslider__title">Прогулка на <span>яхте «Чайка»</span></h2>
+									<button class="btn btn-reset mainslider__btn" type="button" data-popup="#popup-card3">Заказать
+										впечатление</button>
+									<span class="mainslider__price">от 3 500 ₽</span>
+								</div>
+							</div>
+							<div class="mainslider__slide swiper-slide flex" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%),
+					url('img/slide4.jpg');">
+								<div class="mainslider__content flex">
+									<h2 class="title mainslider__title">Вечер в<span>куполе</span></h2>
+									<button class="btn btn-reset mainslider__btn" data-popup="#popup-card4" type="button">Заказать
+										впечатление</button>
+									<span class="mainslider__price">от 3 000 ₽</span>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-pagination mainslider__pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<h2 class="visually-hidden">Наши преимущества</h2>
+				<div class="advantages__container">
+					<ul class="advantages__list list-reset flex">
+						<li class="advantages__item flex" data-watch data-watch-threshold="1" data-watch-once>
+							<h3 class="title advantages__title">Впечатления <br>по цене партнёра</h3>
+							<svg class="advantages__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect width="80" height="80" fill="white" />
+								<path d="M55 51C67.1503 51 77 41.1503 77 29C77 16.8497 67.1503 7 55 7C42.8497 7 33 16.8497 33 29C33 41.1503 42.8497 51 55 51Z" fill="#AAB89A" />
+								<path d="M53 50C65.1503 50 75 40.1503 75 28C75 15.8497 65.1503 6 53 6C40.8497 6 31 15.8497 31 28" stroke="#547147" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M51.4971 44V41.276C46.5108 40.4407 44.2475 36.6634 44 33.6852L48.8802 32.5593C49.057 34.6659 50.4715 36.5545 53.5128 36.5545C55.2809 36.5545 56.554 35.6828 56.554 34.2663C56.554 33.2131 55.776 32.523 54.3615 32.1961L51.2141 31.4334C47.2534 30.4528 44.8134 27.9831 44.8134 24.5327C44.8134 20.4649 47.7839 17.6683 51.4971 17.0145V14H55.5639V17.1235C59.4538 17.9952 61.222 20.8644 61.7171 23.3341L56.8016 24.678C56.5894 23.5521 55.9882 21.6634 53.1945 21.6634C51.2141 21.6634 50.224 22.862 50.224 24.0242C50.224 25.0048 50.9312 25.7676 52.3104 26.0944L55.387 26.7845C60.1257 27.8741 62 30.707 62 33.9758C62 37.3172 59.666 40.4407 55.5639 41.2034V43.9274L51.4971 44Z" stroke="#F6F1E4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M21.2643 50.2579H21.8754C23.3252 50.2579 24.6633 49.4748 25.3119 48.1782C26.5222 45.759 28.3503 41.7488 28.6728 39.0175C28.8119 37.8389 28.9115 36.4446 28.9828 35.0525C29.141 31.9615 32.514 30.1702 34.4864 32.5552C35.6665 33.9822 36.5786 35.6442 36.5945 37.3821C36.6401 42.3559 35.0924 45.3193 35.0924 45.3193C35.0924 45.3193 44.6161 45.3193 46.9646 45.3193C49.3131 45.3193 51.936 46.51 51.9247 48.8684C51.9134 51.2268 48.9205 52.2333 48.9205 52.2333C48.9205 52.2333 51.0081 52.8598 50.896 55.1965C50.7838 57.5332 47.9328 58.1298 47.9328 58.1298C47.9328 58.1298 49.5704 59.8351 48.9205 61.621C48.2706 63.4069 45.9894 63.662 45.9894 63.662C45.9894 63.662 47.3799 65.2153 47.1271 66.6879C46.8744 68.1606 45.0463 69.0246 42.9942 69.0246C41.6508 69.0246 34.4472 69.0246 29.6317 69.0246C26.7268 69.0246 23.8626 68.3482 21.2643 67.0491V67.0491" fill="#F6F1E4" />
+								<path d="M19.2643 52.2579H19.8754C21.3252 52.2579 22.6633 51.4748 23.3119 50.1782C24.5222 47.759 26.3503 43.7488 26.6728 41.0175C26.8119 39.8389 26.9115 38.4446 26.9828 37.0525C27.141 33.9615 30.514 32.1702 32.4864 34.5552C33.6665 35.9822 34.5786 37.6442 34.5945 39.3821C34.6401 44.3559 33.0924 47.3193 33.0924 47.3193C33.0924 47.3193 42.6161 47.3193 44.9646 47.3193C47.3131 47.3193 49.936 48.51 49.9247 50.8684C49.9134 53.2268 46.9205 54.2333 46.9205 54.2333C46.9205 54.2333 49.0081 54.8598 48.896 57.1965C48.7838 59.5332 45.9328 60.1298 45.9328 60.1298C45.9328 60.1298 47.5704 61.8351 46.9205 63.621C46.2706 65.4069 43.9894 65.662 43.9894 65.662C43.9894 65.662 45.3799 67.2153 45.1271 68.6879C44.8744 70.1606 43.0463 71.0246 40.9942 71.0246C39.6508 71.0246 32.4472 71.0246 27.6317 71.0246C24.7268 71.0246 21.8626 70.3482 19.2643 69.0491V69.0491" stroke="#547147" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M12.0783 71C10.6056 71 9.41168 69.8061 9.41168 68.3333V49.9613C9.41168 48.4886 10.6056 47.2947 12.0783 47.2947H18.5977C20.0704 47.2947 21.2643 48.4886 21.2643 49.9613V68.3333C21.2643 69.8061 20.0704 71 18.5977 71H12.0783Z" fill="#AAB89A" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M10.0783 73C8.60559 73 7.41168 71.8061 7.41168 70.3333V51.9613C7.41168 50.4886 8.60559 49.2947 10.0783 49.2947H16.5977C18.0704 49.2947 19.2643 50.4886 19.2643 51.9613V70.3333C19.2643 71.8061 18.0704 73 16.5977 73H10.0783Z" stroke="#547147" stroke-width="2" stroke-linecap="square" />
+							</svg>
+						</li>
+						<li class="advantages__item flex" data-watch data-watch-threshold="1" data-watch-once>
+							<h3 class="title advantages__title">Бесплатная доставка<br>в день заказа</h3>
+							<svg class="advantages__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M49 24V55H74C76.2091 55 78 53.2091 78 51V35.0213C78 34.5601 77.8406 34.1131 77.5488 33.7559L67.5104 21.4692C66.7508 20.5394 65.6136 20 64.4128 20H53C50.7909 20 49 21.7909 49 24Z" fill="#AAB89A" />
+								<path d="M64.0029 25H56C54.8954 25 54 25.8954 54 27V35.9362C54 37.0407 54.8954 37.9362 56 37.9362H60.9161C61.4271 37.9362 61.9187 38.1317 62.29 38.4828L64.3747 40.4534C64.7461 40.8044 65.2376 41 65.7486 41H71C72.1046 41 73 40.1046 73 39V35.5842C73 35.1238 72.8411 34.6774 72.5502 34.3206L65.5532 25.7364C65.1734 25.2704 64.6041 25 64.0029 25Z" fill="#F6F1E4" />
+								<path d="M61.0029 27H53C51.8954 27 51 27.8954 51 29V37.9362C51 39.0407 51.8954 39.9362 53 39.9362H57.9161C58.4271 39.9362 58.9187 40.1317 59.29 40.4828L61.3747 42.4534C61.7461 42.8044 62.2376 43 62.7486 43H68C69.1046 43 70 42.1046 70 41V37.5842C70 37.1238 69.8411 36.6774 69.5502 36.3206L62.5532 27.7364C62.1734 27.2704 61.6041 27 61.0029 27Z" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M46 27V58H71C73.2091 58 75 56.2091 75 54V38.0213C75 37.5601 74.8406 37.1131 74.5488 36.7559L64.5104 24.4692C63.7508 23.5394 62.6136 23 61.4128 23H50C47.7909 23 46 24.7909 46 27Z" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M45 11H12C9.79086 11 8 12.7909 8 15V51C8 53.2091 9.79086 55 12 55H35H49V24V15C49 12.7909 47.2091 11 45 11Z" fill="#F6F1E4" />
+								<path d="M46 58V18C46 15.7909 44.2091 14 42 14H9C6.79086 14 5 15.7909 5 18V54C5 56.2091 6.79086 58 9 58H32H46ZM46 58V27" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M69 58C69 62.4183 65.4183 66 61 66C56.5817 66 53 62.4183 53 58C53 53.5817 56.5817 50 61 50C65.4183 50 69 53.5817 69 58Z" fill="#AAB89A" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M32 58C32 62.4183 28.4183 66 24 66C19.5817 66 16 62.4183 16 58C16 53.5817 19.5817 50 24 50C28.4183 50 32 53.5817 32 58Z" fill="#AAB89A" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M13 29H35M17.0741 35H35" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+							</svg>
+						</li>
+						<li class="advantages__item flex" data-watch data-watch-threshold="1" data-watch-once>
+							<h3 class="title advantages__title">Красивые сертификаты<br> на любое
+								впечатление
+							</h3>
+							<svg class="advantages__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<rect x="10" y="14" width="66" height="45" rx="8" fill="#AAB89A" />
+								<path d="M26.1429 5C26.7156 3.99627 27 3 27 3C27 3 27.2844 3.99627 27.8571 5C28.3609 5.88282 30 7 30 7C30 7 28.3609 8.11718 27.8571 9C27.2844 10.0037 27 11 27 11C27 11 26.7156 10.0037 26.1429 9C25.6391 8.11718 24 7 24 7C24 7 25.6391 5.88282 26.1429 5Z" fill="#F6F1E4" />
+								<path d="M30 17H65C69.4183 17 73 20.5817 73 25V41M30 17V28M30 17H26M7 41V54C7 58.4183 10.5817 62 15 62H30M7 41V25C7 20.5817 10.5817 17 15 17H16M7 41H17M43 41H73M73 41V54C73 58.4183 69.4183 62 65 62H64M30 62V51M30 62H48" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M30 36C30 33.2386 32.2386 31 35 31C37.7614 31 40 33.2386 40 36C40 38.7614 37.7614 41 35 41H30M30 36C30 33.2386 27.7614 31 25 31C22.2386 31 20 33.2386 20 36C20 38.7614 22.2386 41 25 41H30M30 36V41M30 41L23 48M30 41L37 48" stroke="#F6F1E4" stroke-width="2" stroke-linecap="round" />
+								<path d="M47 26H65" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M50 30H62" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M20.1429 13C20.7156 11.9963 21 11 21 11C21 11 21.2844 11.9963 21.8571 13C22.3609 13.8828 24 15 24 15C24 15 22.3609 16.1172 21.8571 17C21.2844 18.0037 21 19 21 19C21 19 20.7156 18.0037 20.1429 17C19.6391 16.1172 18 15 18 15C18 15 19.6391 13.8828 20.1429 13Z" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+								<path d="M59.8571 51.5C60.6209 50.2453 61 49 61 49C61 49 61.3791 50.2453 62.1429 51.5C62.8146 52.6035 65 54 65 54C65 54 62.8146 55.3965 62.1429 56.5C61.3791 57.7547 61 59 61 59C61 59 60.6209 57.7547 59.8571 56.5C59.1854 55.3965 57 54 57 54C57 54 59.1854 52.6035 59.8571 51.5Z" fill="#F6F1E4" />
+								<path d="M54.8571 59.5C55.6209 58.2453 56 57 56 57C56 57 56.3791 58.2453 57.1429 59.5C57.8146 60.6035 60 62 60 62C60 62 57.8146 63.3965 57.1429 64.5C56.3791 65.7547 56 67 56 67C56 67 55.6209 65.7547 54.8571 64.5C54.1854 63.3965 52 62 52 62C52 62 54.1854 60.6035 54.8571 59.5Z" stroke="#547147" stroke-width="2" stroke-linecap="round" />
+							</svg>
+						</li>
+						<li class="advantages__item flex" data-watch data-watch-threshold="1" data-watch-once>
+							<h3 class="title advantages__title">Проверенные <br> партнёры</h3>
+							<svg class="advantages__icon" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M47.8094 31.5684L51.4937 28L68.0728 44.0577C68.0728 44.0577 66.7812 47.0928 64.3885 49.4102C60.0064 53.6545 58.8622 52.9786 58.8622 52.9786C58.8622 52.9786 64.3885 58.3312 58.8622 61.8995C58.8622 61.8995 60.2973 63.6837 58.8622 65.4679C56.5413 68.3531 53.8619 65.9808 53.404 65.5363C53.825 65.9745 55.9564 68.4425 52.9605 70.7148C52.2729 71.2363 50.6973 71.8333 49.6516 70.8205C45.9673 77.9572 40.67 71.1355 40.67 71.1355L40.2652 70.6259C40.0511 70.8716 39.8081 71.1267 39.5342 71.392C36.6501 74.1854 35.0586 74.9789 32.9364 72.9232C30.8141 70.8675 32.9995 67.9204 34.2662 66.6935C31.9208 68.7953 29.2437 71.1131 26.7976 68.744C24.7029 66.7151 26.4566 64.6575 28.3166 62.8366C25.7852 65.2512 23.4012 67.1152 20.7957 64.5917C17.8746 61.7625 21.6267 58.614 23.7173 56.5891C20.8332 59.3826 18.8711 60.344 16.7489 58.2883C14.6266 56.2325 17.5597 53.7145 18.8265 52.4876C19.1976 52.1282 19.6638 51.6955 20.1781 51.3027C18.0856 47.9981 17.5917 46.0167 18.3359 42.2735L31.2308 29.7842C31.2308 29.7842 34.5295 29.2342 36.6116 29.7842C39.114 30.4452 42.2835 33.3526 42.2835 33.3526C45.0752 32.6766 47.8094 31.5684 47.8094 31.5684Z" fill="#F6F1E4" />
+								<rect x="5" y="36.3698" width="28.8072" height="11" rx="2" transform="rotate(-45 5 36.3698)" fill="#AAB89A" />
+								<rect width="28.8072" height="11" rx="2" transform="matrix(-0.707107 -0.707107 -0.707107 0.707107 75.1475 36.3698)" fill="#AAB89A" />
+								<path d="M49.2105 28.9209L48.8516 28.5734C48.0402 27.7875 48.0402 26.486 48.8516 25.7001L53.3454 21.3477C54.1209 20.5965 55.3527 20.5965 56.1283 21.3477L73.5168 38.1894C74.3282 38.9753 74.3282 40.2768 73.5168 41.0627L69.0231 45.4151C68.2476 46.1663 67.0158 46.1663 66.2402 45.4151L65.7896 44.9786M49.2105 28.9209L45.5262 32.4893C45.5262 32.4893 42.7919 33.5975 40.0003 34.2735M49.2105 28.9209L65.7896 44.9786M40.0003 34.2735C35.1901 35.4382 29.6864 40.5964 27.7893 42.4923C27.4041 42.8773 27.4182 43.4977 27.8094 43.8767L30.3936 46.3796C30.6399 46.6181 30.9913 46.7139 31.3246 46.6332L45.5262 43.1944L56.579 53.8995M40.0003 34.2735C40.0003 34.2735 36.8308 31.3661 34.3284 30.7051C32.2462 30.1551 28.9476 30.7051 28.9476 30.7051M56.579 53.8995C56.579 53.8995 57.7232 54.5754 62.1053 50.3312C64.498 48.0137 65.7896 44.9786 65.7896 44.9786M56.579 53.8995C56.579 53.8995 62.1053 59.2521 56.579 62.8205M56.579 62.8205L51.0526 57.4679M56.579 62.8205C56.579 62.8205 58.0141 64.6047 56.579 66.3888C54.0318 69.5555 51.0526 66.3888 51.0526 66.3888M51.0526 66.3888L46.3149 61.6364M51.0526 66.3888C51.0526 66.3888 53.9794 69.1312 50.6772 71.6357C49.9896 72.1573 48.4141 72.7543 47.3683 71.7414M43.6841 68.173C43.6841 68.173 45.5262 69.9572 47.3683 71.7414M47.3683 71.7414C43.6841 78.8782 38.3868 72.0564 38.3868 72.0564L37.9819 71.5468M26.9605 62.8626C29.8447 60.0692 31.3239 58.1683 28.8021 55.7258C26.2803 53.2833 23.5247 55.4852 21.4341 57.5101M26.9605 62.8626C24.0763 65.6561 21.4336 68.3419 18.5125 65.5126C15.5914 62.6834 19.3435 59.5349 21.4341 57.5101M26.9605 62.8626C24.8699 64.8875 22.0684 67.2958 24.5144 69.6649C26.9605 72.0341 29.6376 69.7162 31.983 67.6144M26.9605 62.8626C29.0511 60.8378 31.983 58.3436 34.3284 61.0783C36.6738 63.813 34.3284 65.5126 31.983 67.6144M21.4341 57.5101C24.3183 54.7166 23.4043 53.2212 21.7945 51.6617C20.6563 50.5592 19.1358 51.2756 17.8948 52.2236M21.4341 57.5101C18.5499 60.3035 16.5879 61.2649 14.4657 59.2092C12.3434 57.1535 15.2765 54.6354 16.5432 53.4086C16.9144 53.0491 17.3806 52.6165 17.8948 52.2236M31.983 67.6144C30.7163 68.8413 28.5309 71.7884 30.6532 73.8441C32.7754 75.8998 34.3669 75.1064 37.251 72.3129C37.5249 72.0476 37.7679 71.7926 37.9819 71.5468M31.983 67.6144C33.2497 66.3876 36.3721 64.7372 37.9819 66.2967C39.439 67.708 40.0224 69.2045 37.9819 71.5468M16.0527 43.1944L13.7599 45.4151C12.9844 46.1663 11.7526 46.1663 10.977 45.4151L6.48327 41.0627C5.67186 40.2768 5.67186 38.9753 6.48327 38.1894L23.8719 21.3477C24.6474 20.5965 25.8792 20.5965 26.6548 21.3477L31.1485 25.7001C31.9599 26.486 31.9599 27.7875 31.1485 28.5734L28.9476 30.7051M16.0527 43.1944L28.9476 30.7051M16.0527 43.1944C15.3085 46.9376 15.8024 48.919 17.8948 52.2236" stroke="#547147" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M34.8806 5.74549C34.3809 5.85461 34.036 6.31792 34.0911 6.82644C34.4355 10.004 34.9678 12.6365 36.1549 14.7241C37.3675 16.8567 39.3273 18.5328 41.5363 19.7525C41.8244 19.9116 42.1741 19.9086 42.4605 19.7467C44.7871 18.432 46.7802 16.7578 47.9366 14.7241C49.0598 12.7489 49.562 10.1382 49.9045 6.89228C49.9611 6.35656 49.5759 5.8791 49.0447 5.78925C47.9956 5.61178 47.0801 5.37982 46.2982 5.09337C45.3768 4.75577 44.1043 4.14585 42.4809 3.26364C42.1809 3.10058 41.8185 3.09931 41.5173 3.26015C40.0664 4.03477 38.9318 4.572 38.1134 4.87183C37.3579 5.14864 36.2803 5.43987 34.8806 5.74549Z" fill="#F6F1E4" />
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M32 7.93103C32.3427 11.5125 32.8581 14.4435 34.1549 16.7241C35.4517 19.0048 37.603 20.7634 40 22C42.5228 20.6494 44.7046 18.8908 45.9366 16.7241C47.1686 14.5575 47.6535 11.6265 48 7.93103C46.5427 7.74285 45.3088 7.46363 44.2982 7.09337C43.2876 6.72311 41.8549 6.02532 40 5C38.316 5.91557 37.0205 6.53951 36.1134 6.87183C35.2064 7.20414 33.8353 7.55721 32 7.93103Z" stroke="#547147" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="catalog">
+				<div class="catalog__container">
+					<h2 class="catalog__title">Каталог впечатлений</h2>
+					<div class="catalog__content grid">
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Конная прогулка</h3>
+							<div class="card__text flex">
+								<span class="card__price">от 990 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button data-popup="#popup-card1" class="card__btn-secondary btn btn-reset link--active" type="button">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card1" class="card__image-ibg"><picture><source data-srcset="img/catalog1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog1.jpg" alt="Девушка на конной прогулке" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Полет на мотопараплане</h3>
+							<div class="card__text flex">
+								<span class="card__price">3 000 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" data-popup="#popup-card2" type="button">Подробнее</button>
+							</div>
+							<a data-popup="#popup-card2" href="##" class="card__image-ibg"><picture><source data-srcset="img/catalog2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog2.jpg" alt="Полет на мотопараплане" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex card--gift" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Полет в аэротрубе</h3>
+							<div class="card__text flex">
+								<span class="card__price">от 1 800 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button data-popup="#popup-card3" class="card__btn-secondary btn btn-reset link--active" type="button">Подробнее</button>
+							</div>
+							<a data-popup="#popup-card3" href="##" class="card__image-ibg"><picture><source data-srcset="img/catalog3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog3.jpg" alt="Полет в аэротрубе" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Вечер в куполе</h3>
+							<div class="card__text flex">
+								<span class="card__price">3 000 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card4">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card4" class="card__image-ibg"><picture><source data-srcset="img/catalog4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog4.jpg" alt="Вечер в куполе" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Прогулка на яхте «Чайка»</h3>
+							<div class="card__text flex">
+								<span class="card__price">от 3 500 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card5">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card5" class="card__image-ibg"><picture><source data-srcset="img/catalog5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog5.jpg" alt="Прогулка на яхте «Чайка»" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Велопрогулка с пикником</h3>
+							<div class="card__text flex">
+								<span class="card__price">3 000 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card6">Подробнее</button>
+							</div>
+							<a data-popup="#popup-card6" href="##" class="card__image-ibg"><picture><source data-srcset="img/catalog6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog6.jpg" alt="Велопрогулка с пикником" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Драйв на квадроциклах</h3>
+							<div class="card__text flex">
+								<span class="card__price">от 1 800 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card7">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card7" class="card__image-ibg"><picture><source data-srcset="img/catalog7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog7.jpg" alt="Драйв на квадроциклах" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Запись песни в студии</h3>
+							<div class="card__text flex">
+								<span class="card__price">5 000 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card8">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card8" class="card__image-ibg"><picture><source data-srcset="img/catalog8.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog8.jpg" alt="Запись песни в студии" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Поездка на болотоходах</h3>
+							<div class="card__text flex">
+								<span class="card__price">3 500 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card9">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card9" class="card__image-ibg"><picture><source data-srcset="img/catalog9.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog9.jpg" alt="Поездка на болотоходах" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Игра в виртуальной реальности</h3>
+							<div class="card__text flex">
+								<span class="card__price">600 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card10">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card10" class="card__image-ibg"><picture><source data-srcset="img/catalog10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog10.jpg" alt="Игра в виртуальной реальности" width="407" height="384"></picture></a>
+						</article>
+						<article class="catalog__card card flex" data-watch data-watch-threshold="0.5" data-watch-once>
+							<h3 class="card__title">Романтический пикник</h3>
+							<div class="card__text flex">
+								<span class="card__price">2 500 ₽</span>
+								<button class="card__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать</button>
+								<button class="card__btn-secondary btn btn-reset link--active" type="button" data-popup="#popup-card11">Подробнее</button>
+							</div>
+							<a href="##" data-popup="#popup-card11" class="card__image-ibg"><picture><source data-srcset="img/catalog11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/catalog11.jpg" alt="Романтический пикник" width="407" height="384"></picture></a>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="promotion" data-watch data-watch-threshold="0.3" data-watch-once>
+				<div class="promotion__container">
+					<div class="promotion__slider swiper">
+						<div class="promotion__wrapper swiper-wrapper">
+							<div class="promotion__slide swiper-slide flex">
+								<span class="promotion__subtitle">Акция месяца</span>
+								<div class="promotion__content flex">
+									<div class="promotion__text flex">
+										<h2 class="promotion__title">Полёт в аэротрубе для двоих!</h2>
+										<div class="promotion__price flex">
+											<span class="promotion__price-old">4 000 ₽</span>
+											<span class="promotion__price-actual">3 200 ₽</span>
+										</div>
+										<button class="promotion__btn btn-main btn btn-reset" data-popup="#popup-card3" type="button">Заказать
+											впечатление</button>
+										<div class="promotion__decor"></div>
+									</div>
+									<div class="promotion__image-ibg promotion__image">
+										<picture>
+											<source media="(max-width: 768px)" srcset="img/promotionSmall.jpg">
+											<img data-src="img/promotion.jpg" alt="полёт в аэротрубе для двоих!" width="530" height="450">
+										</picture>
+									</div>
+								</div>
+							</div>
+							<div class="promotion__slide swiper-slide flex">
+								<span class="promotion__subtitle">Акция месяца</span>
+								<div class="promotion__content flex">
+									<div class="promotion__text flex">
+										<h2 class="promotion__title">Полёт в аэротрубе для двоих!</h2>
+										<div class="promotion__price flex">
+											<span class="promotion__price-old">4 000 ₽</span>
+											<span class="promotion__price-actual">3 200 ₽</span>
+										</div>
+										<button class="promotion__btn btn-main btn btn-reset" type="button" data-popup="#popup-card3">Заказать
+											впечатление</button>
+										<div class="promotion__decor"></div>
+									</div>
+									<div class="promotion__image-ibg promotion__image"><picture><source data-srcset="img/promotion.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/promotion.jpg" alt="полёт в аэротрубе для двоих!" width="530" height="450"></picture></div>
+								</div>
+							</div>
+							<div class="promotion__slide swiper-slide flex">
+								<span class="promotion__subtitle">Акция месяца</span>
+								<div class="promotion__content flex">
+									<div class="promotion__text flex">
+										<h2 class="promotion__title">Полёт в аэротрубе для двоих!</h2>
+										<div class="promotion__price flex">
+											<span class="promotion__price-old">4 000 ₽</span>
+											<span class="promotion__price-actual">3 200 ₽</span>
+										</div>
+										<button class="promotion__btn btn-main btn btn-reset" data-popup="#popup-card3" type="button">Заказать
+											впечатление</button>
+										<div class="promotion__decor"></div>
+									</div>
+									<div class="promotion__image-ibg promotion__image"><picture><source data-srcset="img/promotion.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/promotion.jpg" alt="полёт в аэротрубе для двоих!" width="530" height="450"></picture></div>
+								</div>
+							</div>
+						</div>
+						<div class="promotion__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="certificate">
+				<div class="certificate__container">
+					<div class="certificate__wrapper flex">
+						<div class="certificate__content" data-watch data-watch-threshold="0.3" data-watch-once>
+							<h2 class="certificate__title" data-da=".certificate__container, 768, 0">Сертификат в дизайнерском конверте</h2>
+							<ul class="certificate__list list-reset list">
+								<li class="certificate__item list__item">
+									Электронный сертификат - бесплатный
+								</li>
+								<li class="certificate__item list__item">
+									Сертификат в подарочном конверте - 200р
+								</li>
+								<li class="certificate__item list__item">
+									Срок действия сертификата - 3 месяца
+								</li>
+								<li class="certificate__item list__item">
+									Бесплатная доставка в день заказа
+								</li>
+								<li class="certificate__item list__item">
+									Есть возможность заменить впечатление по сертификату, если подарок не понравится
+								</li>
+							</ul>
+						</div>
+						<div class="certificate__image" data-watch data-watch-threshold="0.3" data-watch-once>
+							<div class="certificate__image-ibg"><picture><source data-srcset="img/certificate.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/certificate.jpg" alt="Сертификат в дизайнерском конверте" width="610" height="465"></picture></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="questions">
+				<div class="questions__container">
+					<h2 class="questions__title title" data-watch data-watch-threshold="0.3" data-watch-once>Часто задаваемые вопросы
+					</h2>
+					<div data-spollers class="spollers">
+						<div class="spollers__item" data-watch data-watch-threshold="0.3" data-watch-once>
+							<button type="button" data-spoller class="spollers__title btn-reset  _spoller-active">Могу ли я купить
+								сертификат в
+								подарок?</button>
+							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+								Большого прямо океана ручеек меня за предложения обеспечивает! Точках страна эта рукопись ведущими семантика
+								возвращайся, раз пунктуация рыбного все строчка?</div>
+							<span class="spollers__circle"></span>
+						</div>
+						<div class="spollers__item" data-watch data-watch-threshold="0.3" data-watch-once>
+							<button type="button" data-spoller class="spollers__title btn-reset">Могу ли я поменять сертификат на
+								другой?</button>
+							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+								Великий эта подпоясал составитель, оксмокс себя власти проектах всеми по всей инициал. Щеке, текстами!</div>
+							<span class="spollers__circle"></span>
+						</div>
+						<div class="spollers__item" data-watch data-watch-threshold="0.3" data-watch-once>
+							<button type="button" data-spoller class="spollers__title btn-reset">Могу ли я купить сертификат в
+								подарок?</button>
+							<div class="spollers__body">Далеко-далеко за словесными, горами в стране гласных и согласных живут рыбные
+								тексты. Пор, если?</div>
+							<span class="spollers__circle"></span>
+						</div>
+						<div class="spollers__item" data-watch data-watch-threshold="0.3" data-watch-once>
+							<button type="button" data-spoller class="spollers__title btn-reset">Могу ли я поменять сертификат на
+								другой?</button>
+							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут, рыбные
+								тексты. Подпоясал от всех курсивных маленькая вершину залетают рыбными предупреждал жаренные пустился путь
+								диких собрал коварных использовало оксмокс снова текстов, власти одна своего единственное, домах то назад,
+								живет гор дал? Рот пустился раз вскоре всемогущая! То над буквоград встретил инициал дороге даже выйти там
+								букв журчит рыбного запятых агентство заголовок пустился, подзаголовок меня страна, наш повстречался текста
+								правилами? Взобравшись вскоре лучше точках свой строчка то все!</div>
+							<span class="spollers__circle"></span>
+						</div>
+						<div class="spollers__item" data-watch data-watch-threshold="0.3" data-watch-once>
+							<button type="button" data-spoller class="spollers__title btn-reset">Могу ли я купить сертификат в
+								подарок?</button>
+							<div class="spollers__body">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты.
+								Большой единственное последний послушавшись дороге? Дал меня букв своих до?</div>
+							<span class="spollers__circle"></span>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content flex">
+					<div class="footer__logo-wrapper">
+						<a class="footer__logo logo" href="##"></a>
+						<span class="footer__law">Все права защищиены <br>© Дари Душой, 2022 г.</span>
+					</div>
+					<div class="footer__menu footer-menu">
+						<nav class="footer-menu__body">
+							<ul class="footer-menu__list list-reset flex">
+								<h2 class="title footer-menu__title">Меню</h2>
+								<li class="footer-menu__item menu__item"><a href="##" class="footer-menu__link link--active">Каталог</a>
+								</li>
+								<li class="footer-menu__item menu__item"><a href="##" class="footer-menu__link link--active">Акции</a></li>
+								<li class="footer-menu__item menu__item"><a href="##" class="footer-menu__link link--active">Контакты</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer__contacts contacts footer-contacts">
+						<a class="contacts__phone footer-contacts__phone link--active" href="tel:+79991234567">+7 (999) 123-45-67</a>
+						<ul class="contacts__social social list-reset flex footer-contacts__social">
+							<li class="social__item social__item--vk">
+								<a class="social__item-link social__link" href="##">
+									<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M20 0C8.95431 0 0 8.95431 0 20C0 31.0457 8.95431 40 20 40C31.0457 40 40 31.0457 40 20C40 8.95431 31.0457 0 20 0ZM30.6568 14C31.4497 14 31.6174 14.4011 31.4497 14.9481C31.1168 16.4525 27.9177 20.8777 27.9165 20.8765C27.6398 21.3141 27.5273 21.5317 27.9165 22.0245C28.0541 22.213 28.3464 22.4943 28.681 22.8162C29.0252 23.1474 29.4141 23.5216 29.725 23.8819C30.8533 25.1275 31.7036 26.1803 31.9396 26.9037C32.1552 27.6306 31.7803 27.9988 31.0305 27.9988H28.4052C27.7027 27.9988 27.3483 27.6117 26.5827 26.7755C26.2584 26.4213 25.8603 25.9864 25.3307 25.4663C23.7725 23.9924 23.1042 23.7995 22.7161 23.7995C22.1879 23.7995 22.0286 23.9477 22.0286 24.6841V26.9966C22.0286 27.6318 21.8226 28 20.1542 28C17.3708 28 14.3155 26.3415 12.1452 23.282C8.88989 18.8015 8 15.4139 8 14.7293C8 14.3482 8.14971 14.0012 8.90067 14.0012H11.526C12.1967 14.0012 12.4494 14.2894 12.6998 15.0034C13.9849 18.678 16.1503 21.8881 17.0402 21.8881C17.3756 21.8881 17.5277 21.7363 17.5277 20.9047V17.1077C17.4677 16.0252 17.0828 15.5573 16.7979 15.2109C16.6222 14.9972 16.4845 14.8298 16.4845 14.5928C16.4845 14.3035 16.736 14 17.1528 14H21.2801C21.837 14 22.0298 14.2917 22.0298 14.9481V20.0566C22.0298 20.6036 22.2718 20.7942 22.4382 20.7942C22.7712 20.7942 23.0503 20.6036 23.6611 20.0002C25.5535 17.9264 26.8889 14.7281 26.8889 14.7281C27.0566 14.347 27.362 14 28.0303 14H30.6568Z" fill="#547147" />
+									</svg>
+								</a>
+							</li>
+							<li class="social__item social__item--instagram">
+								<a class="social__item-link social__link" href="##">
+									<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.0457 40 20 40C8.95431 40 0 31.0457 0 20ZM20.0977 13.7346C16.686 13.7346 13.9326 16.4886 13.9326 19.901C13.9326 23.3134 16.686 26.0674 20.0977 26.0674C23.5094 26.0674 26.2628 23.3134 26.2628 19.901C26.2628 16.4886 23.5094 13.7346 20.0977 13.7346ZM20.0977 23.9087C17.8914 23.9087 16.0908 22.1078 16.0908 19.901C16.0908 17.6942 17.8914 15.8933 20.0977 15.8933C22.304 15.8933 24.1045 17.6942 24.1045 19.901C24.1045 22.1078 22.304 23.9087 20.0977 23.9087ZM26.5153 12.0449C25.7187 12.0449 25.0754 12.6883 25.0754 13.4851C25.0754 14.2818 25.7187 14.9252 26.5153 14.9252C27.3118 14.9252 27.9551 14.2848 27.9551 13.4851C27.9553 13.2959 27.9182 13.1085 27.846 12.9337C27.7737 12.7588 27.6677 12.6 27.5339 12.4662C27.4002 12.3324 27.2413 12.2264 27.0665 12.1541C26.8918 12.0818 26.7044 12.0447 26.5153 12.0449ZM31.9991 19.3938C31.9989 19.5957 31.9987 19.7977 31.9987 20C31.9987 20.2262 31.999 20.4521 31.9993 20.6778C32.0015 22.1056 32.0036 23.525 31.9206 24.9533C31.8275 26.8746 31.3923 28.5768 29.9843 29.9847C28.5794 31.3897 26.8743 31.828 24.953 31.9211C23.5008 32.0028 22.0579 32.0012 20.6059 31.9996C20.4041 31.9993 20.202 31.9991 19.9998 31.9991C19.7979 31.9991 19.5963 31.9993 19.3947 31.9996C17.9447 32.0012 16.5014 32.0028 15.0465 31.9211C13.1253 31.828 11.4231 31.3927 10.0152 29.9847C8.61029 28.5798 8.17201 26.8746 8.07894 24.9533C7.99724 23.501 7.99884 22.0557 8.00045 20.6051C8.00067 20.4035 8.00089 20.2018 8.00089 20C8.00089 19.7982 8.00067 19.5965 8.00045 19.3949C7.99884 17.9449 7.99724 16.5016 8.07894 15.0467C8.17201 13.1254 8.60729 11.4232 10.0152 10.0153C11.4201 8.6103 13.1253 8.17201 15.0465 8.07895C16.4987 7.99724 17.9417 7.99884 19.3936 8.00045C19.5955 8.00067 19.7975 8.00089 19.9998 8.00089C20.2016 8.00089 20.4033 8.00067 20.6048 8.00045C22.0548 7.99884 23.4982 7.99724 24.953 8.07895C26.8743 8.17201 28.5764 8.6073 29.9843 10.0153C31.3893 11.4202 31.8275 13.1254 31.9206 15.0467C32.0023 16.4989 32.0007 17.9418 31.9991 19.3938ZM28.4503 28.4537C28.8736 28.0334 29.1378 27.6252 29.3569 27.0788C29.8965 25.7207 29.8677 22.7573 29.849 20.841C29.846 20.5291 29.8432 20.245 29.8432 20C29.8432 19.7543 29.846 19.4691 29.8491 19.156C29.8678 17.239 29.8967 14.2756 29.3599 12.9182C29.1408 12.3718 28.8766 11.9666 28.4533 11.5433C28.0331 11.12 27.6248 10.8558 27.0784 10.6367C25.7211 10.0999 22.7578 10.1288 20.8408 10.1475C20.5277 10.1506 20.2425 10.1533 19.9968 10.1533C19.7511 10.1533 19.4659 10.1506 19.1528 10.1475C17.2358 10.1288 14.2725 10.0999 12.9151 10.6367C12.3688 10.8558 11.9635 11.123 11.5402 11.5433C11.1169 11.9636 10.8528 12.3718 10.6336 12.9182C10.0969 14.2756 10.1258 17.239 10.1445 19.156C10.1475 19.4691 10.1503 19.7543 10.1503 20C10.1503 20.2457 10.1475 20.5309 10.1445 20.844C10.1258 22.7604 10.0969 25.7219 10.6336 27.0818C10.8528 27.6282 11.1169 28.0334 11.5402 28.4567C11.9605 28.88 12.3688 29.1442 12.9151 29.3633C14.2725 29.9001 17.2358 29.8712 19.1528 29.8525C19.4659 29.8494 19.7511 29.8467 19.9968 29.8467C20.2417 29.8467 20.5259 29.8494 20.8378 29.8525C22.7541 29.8711 25.7174 29.8999 27.0754 29.3603C27.6218 29.1412 28.0271 28.877 28.4503 28.4537Z" fill="#547147" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__request request">
+						<h2 class="request__title">Остались вопросы?</h2>
+						<p class="request__subtitle">Оставьте заявку, мы свяжемся с Вами <br>в ближайшее время</p>
+						<button class="request__btn btn-main btn-reset" type="button" data-popup="#popup-form">Оставить заявку</button>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- <!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> --> -->
+	<div id="popup-card1" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Конная прогулка</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">от 990 ₽</span>
+								<span data-price="2" class="card-popup__price">1 500 ₽</span>
+								<span data-price="3" class="card-popup__price">5 000 ₽</span>
+								<select name="form[]" class="form">
+									<option value="1" selected>30 мин</option>
+									<option value="2">1 час</option>
+									<option value="3">1,5 часа</option>
+								</select>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Конные прогулки подходят как для взрослых, так и для детей от 3 лет.
+								</p>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Для взрослых — гнедые рысаки, выдерживающие до 90 кг</li>
+									<li class="card-popup__item list__item">Для детей — милые пони, которые вызывают восторг у малышей</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Наш инструктор Анастасия познакомит вас с лошадьми, подробно расскажет
+									и
+									покажет особенности общения с этими животными, проведет короткий инструктаж и поможет сесть верхом.</p>
+								<p class="card-popup__description">Под присмотром инструктора вы сможете погладить лошадь, покормить ее,
+									взять
+									под уздцы и самостоятельно поуправлять во время прогулки.</p>
+								<p class="card-popup__description">Наши лошади спокойные, уравновешенные и хорошо воспитанные, чтобы даже
+									новички чувствовали себя комфортно.</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Варианты прогулок:</span>
+								<span>Стандартная — 30 минут - 990 рублей</span>
+								<span>Полноценная — 1 час - 1 500 рублей</span>
+								<span>Романтическая прогулка — 1,5 часа - 5 000 руб (на двоих)</span>
+								<span>Фотосессия с лошадью или пони — 30 минут - 3 000 руб</span>
+							</div>
+							<p class="card-popup__description">Локация - ипподром за Парком Победы</p>
+						</div>
+
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card1.jpg" alt="Конная прогулка" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card1.jpg" alt="Конная прогулка" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card1.jpg" alt="Конная прогулка" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card1.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card1.jpg" alt="Конная прогулка" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card2" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Полёт на мотопараплане</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">3 000 ₽</span>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Людям всегда было свойственно мечтать о небе, стремиться к простору и
+									горизонтам.</p>
+								<p class="card-popup__description">Мотопараплан позволит исполнить эту мечту и посмотреть на мир с высоты
+									птичьего полёта. Все заботы и
+									неприятности останутся на земле, а вы будете ловить облака, дышать полной грудью и наслаждаться свободой
+									🔥
+								</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Продолжительность полёта - 10 мин </li>
+									<li class="card-popup__item list__item">Высота полета — 250 м</li>
+									<li class="card-popup__item list__item">Скорость полета — 60 км/ч</li>
+									<li class="card-popup__item list__item">Короткий инструктаж по технике безопасности</li>
+									<li class="card-popup__item list__item">Защитный шлем со связью с инструктором</li>
+									<li class="card-popup__item list__item">Возраст — от 6 лет</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Полеты проходят совсем рядом с городом — около с. Архангельская Слобода
+								</p>
+								<p class="card-popup__description">Мотопараплан — самый безопасный вид летательного аппарата. Особая
+									конструкция
+									парашюта позволяет сделать взлет и
+									приземление плавными, а управление полетом легким и безопасным.</p>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card2.jpg" alt="Полёт на мотопараплане" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card2.jpg" alt="Полёт на мотопараплане" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card2.jpg" alt="Полёт на мотопараплане" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card2.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card2.jpg" alt="Полёт на мотопараплане" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card3" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Полет в аэротрубе</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">1 800 ₽</span>
+								<span data-price="2" class="card-popup__price">3 000 ₽</span>
+								<span data-price="3" class="card-popup__price">4 800 ₽</span>
+								<select name="form[]" class="form">
+									<option value="1" selected>3 минуты</option>
+									<option value="2">6 минут</option>
+									<option value="3">10 минут</option>
+								</select>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Аэротруба – это тренажер, имитирующий полёт в свободном падении. В ней
+									человек
+									испытывает примерно те же эмоции, что и от прыжка с парашютом.
+								</p>
+								<p class="card-popup__description">Только в среднем полет в небе длится 60 секунд, а в аэротрубе сможете
+									летать
+									от 3 минут. То есть вы получите тот же восторг, как от прыжка с парашютом, помноженный на три, и при
+									этом
+									абсолютно безопасно.</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Вам выдадут комбинезон и шлем для полёта. </p>
+								<p class="card-popup__description">Специальные навыки не требуются – в течение всего полета рядом с вами
+									будет
+									находиться надежный инструктор.</p>
+								<p class="card-popup__description">Перед полетом вы пройдете специальную подготовку – инструктор объяснит
+									основы
+									движения в воздухе и проинформирует о технике безопасности.</p>
+								<p class="card-popup__description">Локация - ул. Портовая 25 (перед зданием речного вокзала)</p>
+							</div>
+
+						</div>
+
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card3.jpg" alt="Полет в аэротрубе" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card3.jpg" alt="Полет в аэротрубе" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card3.jpg" alt="Полет в аэротрубе" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card3.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card3.jpg" alt="Полет в аэротрубе" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card4" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Вечер в куполе</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">от 3 000 ₽</span>
+								<span data-price="2" class="card-popup__price">от 5 000 ₽</span>
+								<select name="form[]" class="form">
+									<option value="1" selected>На двоих</option>
+									<option value="2">До 6 чел.</option>
+								</select>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Уютный вечер под открытым небом в любое время года — это абсолютно
+									реально!
+								</p>
+								<p class="card-popup__description">В обогреваемом прозрачном куполе на крыше в самом центре города можно и
+									любоваться закатом, и отгадывать
+									созвездия, и наслаждаться обществом друг друга.</p>
+								<p class="card-popup__description">Вас ждут мягкие диваны, любимая музыка, красивые огоньки, стильный
+									декор. И,
+									конечно же, вкусные угощения 😏</p>
+								<p class="card-popup__description">Купола находятся в самом центре города на улице. Крымова</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Уютный вечер - 3 000 рублей</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Продолжительность — 2 часа</li>
+									<li class="card-popup__item list__item">Уютный, стильно декорированный купол</li>
+									<li class="card-popup__item list__item">Bluetooth-колонка, через которую вы сможете поставить любимую
+										музыку
+									</li>
+									<li class="card-popup__item list__item">Специально подготовленные вопросы, которые вы сможете задать
+										друг другу, чтобы интересно провести время</li>
+									<li class="card-popup__item list__item">Вкусные и сытные закуски</li>
+									<li class="card-popup__item list__item">Ароматный чай</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Романтическое свидание - 4 500 рублей</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Продолжительность — 2 часа</li>
+									<li class="card-popup__item list__item">Уютный, стильно декорированный купол</li>
+									<li class="card-popup__item list__item">Bluetooth-колонка, через которую вы сможете поставить любимую
+										музыку
+									</li>
+									<li class="card-popup__item list__item">Специально подготовленные вопросы, которые вы сможете задать
+										друг другу, чтобы интересно провести время</li>
+									<li class="card-popup__item list__item">Вкусные и сытные закуски</li>
+									<li class="card-popup__item list__item">Ароматный чай</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card4.jpg" alt="Вечер в куполе" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card4.jpg" alt="Вечер в куполе" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card4.jpg" alt="Вечер в куполе" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card4.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card4.jpg" alt="Вечер в куполе" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card5" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Прогулка на яхте «Чайка»</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">3 500 ₽</span>
+								<span data-price="2" class="card-popup__price">6 500 ₽</span>
+								<span data-price="3" class="card-popup__price">9 000 ₽</span>
+								<select name="form[]" class="form">
+									<option value="1" selected>1 час</option>
+									<option value="2">2 часа</option>
+									<option value="3">3 часа</option>
+								</select>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Прогулка на комфортабельной яхте "Чайка"
+								</p>
+								<p class="card-popup__description">Теплое солнце, шум волн, крик чаек и мерное покачивание яхты — вам
+									захочется,
+									чтобы эти мгновения продлились
+									дольше!
+								</p>
+							</div>
+
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Стоимость:</span>
+								<p class="card-popup__description">Прогулка вдоль побережья (1 час) — 3 500 рублей </p>
+								<p class="card-popup__description">Отдых на яхте посреди Волги (2 часа) — 6 500 рублей</p>
+								<p class="card-popup__description">Путешествие в сторону Пальцинского острова (3 часа) — 9 000 рублей</p>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Вместимость — до 5 человек</li>
+									<li class="card-popup__item list__item">Допустимый возраст — от 7 лет</li>
+									<li class="card-popup__item list__item">Точка старта — Речной Порт</li>
+									<li class="card-popup__item list__item">С собой можно взять угощение и напитки</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Романтическое свидание - 4 500 рублей</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Продолжительность — 2 часа</li>
+									<li class="card-popup__item list__item">Уютный, стильно декорированный купол</li>
+									<li class="card-popup__item list__item">Bluetooth-колонка, через которую вы сможете поставить любимую
+										музыку
+									</li>
+									<li class="card-popup__item list__item">Специально подготовленные вопросы, которые вы сможете задать
+										друг другу, чтобы интересно провести время</li>
+									<li class="card-popup__item list__item">Вкусные и сытные закуски</li>
+									<li class="card-popup__item list__item">Ароматный чай</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card5.jpg" alt="Прогулка на яхте «Чайка»" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card5.jpg" alt="Прогулка на яхте «Чайка»" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card5.jpg" alt="Прогулка на яхте «Чайка»" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card5.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card5.jpg" alt="Прогулка на яхте «Чайка»" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card6" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Велопрогулка с пикником</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">3 000 ₽</span>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Что может быть романтичнее, чем прокатиться вдвоем по городу на
+									велосипедах,
+									любоваться прекрасным видом на Волгу, а затем отдохнуть и перекусить в уединенном месте на пикнике? 😍
+								</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Общая продолжительность — 2 часа (1.5 часа дорога на
+										велосипедах, 30-40
+										мин пикник) </li>
+									<li class="card-popup__item list__item">Сложность маршрута — средняя</li>
+									<li class="card-popup__item list__item">Старт из центра города</li>
+									<li class="card-popup__item list__item">Подробная карта маршрута</li>
+									<li class="card-popup__item list__item">2 синих, французских велосипеда</li>
+									<li class="card-popup__item list__item">Романтический пикник с угощением</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Возможны 2 варианта пикника:</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Классический на земле</li>
+									<li class="card-popup__item list__item">Столик на двоих</li>
+								</ul>
+							</div>
+							<p class="card-popup__description">
+								Данное впечатление с элементом квеста подойдет для пар, которые любят активно проводить время, хотят
+								разнообразить
+								свои будни и отвлечься от быта, а также классный способ необычно отпраздновать годовщину свадьбы.
+							</p>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card6.jpg" alt="Велопрогулка с пикником" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card6.jpg" alt="Велопрогулка с пикником" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card6.jpg" alt="Велопрогулка с пикником" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card6.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card6.jpg" alt="Велопрогулка с пикником" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card7" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Драйв на квадроциклах</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">1 800 ₽</span>
+								<span data-price="2" class="card-popup__price">3 000 ₽</span>
+								<span data-price="3" class="card-popup__price">5 500 ₽</span>
+								<select name="form[]" class="form">
+									<option value="1" selected>1 маршрут</option>
+									<option value="2">2 маршрут</option>
+									<option value="3">3 маршрут</option>
+								</select>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">У нас мощные, двухместные квадроциклы, на которых вы сможете
+									прокатиться
+									вдвоем и в процессе меняться местами.
+								</p>
+								<p class="card-popup__description">Квадроциклы — это юркая, маневренная техника. Здесь не нужны опыт
+									вождения,
+									водительские права или еще какие-то
+									особенные условия. Инструктор подробно всё объяснит и к тому же будет сопровождать вас на маршруте и
+									помогать
+									на сложных участках.</p>
+								<p class="card-popup__description">У нас есть несколько маршрутов, которые ведут по живописным местам к
+									Волге.</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Стоимость:</span>
+								<p class="card-popup__description">Отдых на яхте посреди Волги (2 часа) — 6 500 рублей</p>
+								<p class="card-popup__description">Путешествие в сторону Пальцинского острова (3 часа) — 9 000 рублей</p>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">1 маршрут (для новичков)
+										<br>
+										<br>
+										Продолжительность: 30 минут
+									</li>
+									<li class="card-popup__item list__item">2 маршрут (для тех, кто любит активный отдых)
+										<br>
+										<br>
+										Продолжительность: 1 час
+									</li>
+									<li class="card-popup__item list__item">3 маршрут (для экстремалов)
+										<br>
+										<br>
+										Продолжительность: 2 часа
+									</li>
+								</ul>
+							</div>
+							<p class="card-popup__description">Все маршруты стартуют от Архангельской Слободы</p>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card7.jpg" alt="Драйв на квадроциклах" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card7.jpg" alt="Драйв на квадроциклах" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card7.jpg" alt="Драйв на квадроциклах" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card7.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card7.jpg" alt="Драйв на квадроциклах" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card8" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Запись песни в студии</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">5 000 ₽</span>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Запись песни в профессиональной студии — очень необычное впечатление,
+									которое
+									точно произведет фурор!
+								</p>
+								<p class="card-popup__description">Только представьте, как здорово почувствовать себя настоящей звездой:
+									микрофон, наушники, звукорежиссер,
+									аппаратура — все это будет при записи трека 🔥</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Вы можете:</span>
+								<p class="card-popup__description">Сами записать песню-поздравление, если предпочитаете создавать подарки
+									"своими
+									руками"</p>
+								<p class="card-popup__description">Подарить сертификат на запись тому, кто не смыслит свою жизнь без
+									музыки и
+									песен</p>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Продолжительность — 2 часа (за это время вы запишите полноценный
+										трек)
+									</li>
+									<li class="card-popup__item list__item">Помощь профессионалов при выборе и исполнении композиции</li>
+									<li class="card-popup__item list__item">Допустимый возраст — от 4 лет</li>
+									<li class="card-popup__item list__item">Продолжительность обработки трека — 5-7 дней</li>
+									<li class="card-popup__item list__item">Студия находится в центре города</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card8.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card8.jpg" alt="Запись песни в студии" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card8.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card8.jpg" alt="Запись песни в студии" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card8.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card8.jpg" alt="Запись песни в студии" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card8.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card8.jpg" alt="Запись песни в студии" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card9" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Поездка на болотоходах</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">3 500 ₽</span>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Болотоходы на летний период переехали под Сызрань. Всего 100 км от
+									Ульяновска!
+								</p>
+								<p class="card-popup__description">Летняя трасса включает в себя проезд по бездорожью в лесу через ручьи,
+									овражки
+									и кочки. То есть это классная
+									трасса, позволяющая в полной мере ощутить мощь и проходимость болотоходов 🔥</p>
+								<p class="card-popup__description">Инструктор покажет трассу, расскажет о самых интересных местах, а
+									дальше болотоходом
+									вы управляете
+									самостоятельно.</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Стоимость — 3 500 руб\час</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Продолжительность поездки — от 1 часа</li>
+									<li class="card-popup__item list__item">Вместимость болотохода — 3 человека</li>
+									<li class="card-popup__item list__item">Допустимый возраст — от 4 лет </li>
+									<li class="card-popup__item list__item">Средняя скорость — 40 км/час</li>
+									<li class="card-popup__item list__item">Мощность — 1000 кубов</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card9.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card9.jpg" alt="Запись песни в студии" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card9.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card9.jpg" alt="Запись песни в студии" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card9.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card9.jpg" alt="Запись песни в студии" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card9.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card9.jpg" alt="Запись песни в студии" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card10" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Игра в виртуальной реальности</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">600 ₽</span>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Играя в очках виртуальной реальности, вы погружаетесь в совершенно
+									другой мир
+									— у вас другая картинка, другие
+									ощущения, другое восприятие.
+								</p>
+								<p class="card-popup__description">Неважно, сколько вам лет и чем вы занимаетесь, вы можете собраться
+									компанией и
+									провести командное VR-сражение.</p>
+								<p class="card-popup__description">Чтобы победить в сражении придется активно двигаться, прятаться за
+									укрытиями и
+									быстро перемещаться! Не вы
+									управляете героем, вы и есть герои!</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Что вас ждет на арене виртуальной реальности:</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Командное сражение — от 2 до 10 человек</li>
+									<li class="card-popup__item list__item">Возраст — от 8 лет</li>
+									<li class="card-popup__item list__item">Фуршетная комната для праздников</li>
+									<li class="card-popup__item list__item">Playstation 4</li>
+									<li class="card-popup__item list__item">Горячий чай и кофе</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Что вас ждет на арене виртуальной реальности:</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Присоединиться к другой команде в открытой игре (от 2 человек)
+									</li>
+									<li class="card-popup__item list__item">Собрать свою команду и сразиться друг против друга (от 2 до 10
+										человек)
+									</li>
+									<li class="card-popup__item list__item">Провести закрытое мероприятие с фуршетом в отдельной комнате (до
+										15
+										игроков)</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card10.jpg" alt="Игра в виртуальной реальности" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card10.jpg" alt="Игра в виртуальной реальности" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card10.jpg" alt="Игра в виртуальной реальности" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card10.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card10.jpg" alt="Игра в виртуальной реальности" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-card11" aria-hidden="true" class="popup card-popup">
+		<div class="popup__wrapper card-popup__wrapper">
+			<div class="popup__content card-popup__box">
+				<button data-close type="button" class="popup__close btn-reset" aria-label="Закрыть"></button>
+				<div class="popup__text card-popup__text flex">
+					<div class="card-popup__content">
+						<div class="card-popup__content-header">
+							<h2 class="card-popup__title">Романтический пикник</h2>
+							<div class="card-popup__price-wrapper flex">
+								<span data-price="1" class="card-popup__price card-popup__price--active">2 500 ₽</span>
+							</div>
+							<button class="card-popup__btn btn-main btn-reset" type="button" data-popup="#popup-form">Заказать
+								впечатление</button>
+						</div>
+						<div class="card-popup__content-main flex">
+							<span class="card-popup__subtitle">Подробнее о впечатлении:</span>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Вспомните, как в романтических фильмах главные герои уютно устраиваются
+									на
+									природе с чашечкой горячего чая и
+									ведут неспешные беседы друг с другом 😍
+								</p>
+								<p class="card-popup__description">Именно эту картинку мы воспроизвели в нашем впечатлении.</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">В пикник входит:</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Горячий, ароматный чай</li>
+									<li class="card-popup__item list__item">Сладости к чаю</li>
+									<li class="card-popup__item list__item">Стильный декор</li>
+									<li class="card-popup__item list__item">Свеча в подсвечнике для романтической обстановки</li>
+									<li class="card-popup__item list__item">Теплые пледы для уютного отдыха</li>
+								</ul>
+							</div>
+							<div class="card-popup__inner flex">
+								<p class="card-popup__description">Продукты закупаем непосредственно перед вашим приходом, чтобы вы
+									наслаждались
+									свежими и вкусными угощениями.
+								</p>
+								<p class="card-popup__description">Как правило, пикники мы организуем в тихих и красивых местах, чтобы
+									никто не
+									смог помешать вашему общению. Наш
+									сотрудник подготовит столик к свиданию, встретит вас, и все время будет в 5-минутной доступности, чтобы
+									помочь
+									в
+									случае необходимости.</p>
+							</div>
+							<div class="card-popup__inner flex">
+								<span class="card-popup__subtitle-small">Есть 3 варианта Романтического пикника на природе:</span>
+								<ul class="card-popup__list list-reset list">
+									<li class="card-popup__item list__item">Столик в прекрасном уединенном месте для двоих
+										<br>
+										<br>
+										Продолжительность — 1 час
+									</li>
+									<li class="card-popup__item list__item">Конная прогулка для двоих + пикник
+										<br>
+										<br>
+										Продолжительность — 1.5 часа
+										<br>
+										<br>
+										(1 час — прогулка + 30 минут — пикник)
+									</li>
+									<li class="card-popup__item list__item">Поездка на болотоходе + пикник
+										<br>
+										<br>
+										Продолжительность — 1.5 часа
+										<br>
+										<br>
+										(1 час — заезд + 30 минут — пикник)
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="card-popup__photos card-photo">
+						<div class="card-photo__main">
+							<div class="card-photo__image-ibg card-photo__image-ibg--big"><picture><source data-srcset="img/card11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card11.jpg" alt="Романтический пикник" width="450" height="450"></picture>
+							</div>
+						</div>
+						<div class="card-photo__little flex">
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card11.jpg" alt="Романтический пикник" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card11.jpg" alt="Романтический пикник" width="130" height="130"></picture>
+								</div>
+							</div>
+							<div class="card-photo__secondary">
+								<div class="card-photo__image-ibg card-photo__image-ibg--small"><picture><source data-srcset="img/card11.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/card11.jpg" alt="Романтический пикник" width="130" height="130"></picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup-form" aria-hidden="true" class="popup popup-form">
+		<div class="popup__wrapper popup-form__wrapper">
+			<div class="popup__content popup-form__content">
+				<button data-close type="button" class="popup__close btn-reset popup-form__close" aria-label="Закрыть"></button>
+				<div class="popup__text flex popup-form__text">
+					<h2 class="popup-form__title">Отправьте заявку</h2>
+					<span class="popup-form__subtitle">Мы свяжемся с Вами в ближайшее время</span>
+					<form data-dev action="#" class="form popup-form__form flex">
+						<label class="form__label" for="name">
+							<input data-required autocomplete="off" type="text" name="form[name]" data-error="Ошибка" placeholder="Имя" class="input input-reset form__input" id="name" required>
+						</label>
+						<label class="form__label" for="phone">
+							<input data-required autocomplete="off" type="text" name="form[tel]" data-error="Ошибка" placeholder="Телефон" class="input input-reset form__input phone__input" id="phone" required>
+						</label>
+						<textarea class="popup-form__textarea form__textarea" name="comms" id="comms" style="resize: none" placeholder="Комментарий"></textarea>
+						<label class="custom-checkbox flex">
+							<input type="checkbox" class="custom-checkbox__field">
+							<span class="custom-checkbox__content">Отправляя заявку Вы соглашаетесь на обработку персональных
+								данных</span>
+						</label>
+						<button class="btn-reset form__btn popup-form__submit btn-main" type="submit">Отправить заявку</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230615131539"></script>
+</body>
+
+</html>
