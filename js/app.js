@@ -396,6 +396,47 @@
                 document.documentElement.classList.add(className);
             }));
         }
+        let isMobile = {
+            Android: function() {
+                return navigator.userAgent.match(/Android/i);
+            },
+            BlackBerry: function() {
+                return navigator.userAgent.match(/BlackBerry/i);
+            },
+            iOS: function() {
+                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+            },
+            Opera: function() {
+                return navigator.userAgent.match(/Opera Mini/i);
+            },
+            Windows: function() {
+                return navigator.userAgent.match(/IEMobile/i);
+            },
+            any: function() {
+                return isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows();
+            }
+        };
+        function addTouchClass() {
+            if (isMobile.any()) document.documentElement.classList.add("touch");
+        }
+        function addLoadedClass() {
+            window.addEventListener("load", (function() {
+                setTimeout((function() {
+                    document.documentElement.classList.add("loaded");
+                }), 0);
+            }));
+        }
+        function fullVHfix() {
+            const fullScreens = document.querySelectorAll("[data-fullscreen]");
+            if (fullScreens.length && isMobile.any()) {
+                window.addEventListener("resize", fixHeight);
+                function fixHeight() {
+                    let vh = window.innerHeight * .01;
+                    document.documentElement.style.setProperty("--vh", `${vh}px`);
+                }
+                fixHeight();
+            }
+        }
         let _slideUp = (target, duration = 500, showmore = 0) => {
             if (!target.classList.contains("_slide")) {
                 target.classList.add("_slide");
@@ -3678,7 +3719,7 @@
             classes
         };
         const extendedDefaults = {};
-        class core_Swiper {
+        class Swiper {
             constructor(...args) {
                 let el;
                 let params;
@@ -3693,7 +3734,7 @@
                         const newParams = utils_extend({}, params, {
                             el: containerEl
                         });
-                        swipers.push(new core_Swiper(newParams));
+                        swipers.push(new Swiper(newParams));
                     }));
                     return swipers;
                 }
@@ -4042,26 +4083,26 @@
                 return defaults;
             }
             static installModule(mod) {
-                if (!core_Swiper.prototype.__modules__) core_Swiper.prototype.__modules__ = [];
-                const modules = core_Swiper.prototype.__modules__;
+                if (!Swiper.prototype.__modules__) Swiper.prototype.__modules__ = [];
+                const modules = Swiper.prototype.__modules__;
                 if (typeof mod === "function" && modules.indexOf(mod) < 0) modules.push(mod);
             }
             static use(module) {
                 if (Array.isArray(module)) {
-                    module.forEach((m => core_Swiper.installModule(m)));
-                    return core_Swiper;
+                    module.forEach((m => Swiper.installModule(m)));
+                    return Swiper;
                 }
-                core_Swiper.installModule(module);
-                return core_Swiper;
+                Swiper.installModule(module);
+                return Swiper;
             }
         }
         Object.keys(prototypes).forEach((prototypeGroup => {
             Object.keys(prototypes[prototypeGroup]).forEach((protoMethod => {
-                core_Swiper.prototype[protoMethod] = prototypes[prototypeGroup][protoMethod];
+                Swiper.prototype[protoMethod] = prototypes[prototypeGroup][protoMethod];
             }));
         }));
-        core_Swiper.use([ Resize, Observer ]);
-        const core = core_Swiper;
+        Swiper.use([ Resize, Observer ]);
+        const core = Swiper;
         function create_element_if_not_defined_createElementIfNotDefined(swiper, originalParams, params, checkProps) {
             if (swiper.params.createElements) Object.keys(checkProps).forEach((key => {
                 if (!params[key] && params.auto === true) {
@@ -4785,7 +4826,6 @@
                 spaceBetween: 0,
                 autoHeight: true,
                 speed: 800,
-                grabCursor: true,
                 effect: "fade",
                 autoplay: {
                     delay: 1500,
@@ -4801,7 +4841,7 @@
                 },
                 on: {}
             });
-            if (document.querySelector(".mainslider__slider")) new core(".promotion__slider", {
+            if (document.querySelector(".promotion__slider")) new core(".promotion__slider", {
                 modules: [ Pagination, EffectFade ],
                 observer: true,
                 observeParents: true,
@@ -4809,7 +4849,6 @@
                 spaceBetween: 0,
                 autoHeight: true,
                 speed: 800,
-                grabCursor: true,
                 pagination: {
                     el: ".promotion__pagination",
                     clickable: true
@@ -7200,7 +7239,10 @@
         IMask(mask_element, maskOptions);
         window["FLS"] = true;
         isWebp();
+        addTouchClass();
+        addLoadedClass();
         menuInit();
+        fullVHfix();
         spollers();
         formFieldsInit({
             viewPass: false,
